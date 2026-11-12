@@ -1,0 +1,13 @@
+# Entorno Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Agentes IA locales
+.gemini/
+
+# Estado local de Spec Kit
+.specify/feature.json
+.specify/extensions/*/local-config.yml
