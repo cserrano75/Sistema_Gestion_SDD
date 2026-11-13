@@ -1,5 +1,5 @@
-from database.database import SessionLocal
-from database.models import Contacto, Proyecto, Responsable, Usuario
+from database import SessionLocal
+from models import Contacto, Proyecto, Responsable, Usuario
 
 
 def ejecutar_pruebas():

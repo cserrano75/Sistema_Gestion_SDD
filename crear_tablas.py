@@ -1,6 +1,6 @@
-from database.database import Base, engine
+from database import Base, engine
 # Importamos los modelos para que SQLAlchemy los reconozca
-from database.models import Contacto, Proyecto, Responsable, Usuario
+from models import Contacto, Proyecto, Responsable, Usuario
 
 print("Conectando a Neon y creando tablas...")
 Base.metadata.create_all(bind=engine)
