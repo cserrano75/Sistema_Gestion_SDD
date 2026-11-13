@@ -1,6 +1,6 @@
 import os
-from database import SessionLocal  # Esta es tu conexión a Neon ya configurada
-from models import Contacto, Proyecto, Responsable, Usuario
+from database.database import SessionLocal  # Esta es tu conexión a Neon ya configurada
+from database.models import Contacto, Proyecto, Responsable, Usuario
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
